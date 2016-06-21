@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_dark"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="num"
+        android:textColor="@color/whitecolor"
+        android:textSize="16dip"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="date"
+        android:textColor="@color/whitecolor"
+        android:textSize="16dip"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="statis"
+        android:textColor="@color/whitecolor"
+        android:textSize="16dip"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/OperatorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Rihanna Love the way lie"
+        android:textColor="@color/whitecolor"
+        android:textSize="16dip"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="amount"
+        android:textColor="@color/whitecolor"
+        android:textSize="16dip"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="curent bala"
+        android:textColor="@color/whitecolor"
+        android:textSize="16dip"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:textColor="@color/whitecolor"
+        android:textSize="16dip"
+        android:typeface="sans"
+        android:layout_marginTop="10dp" 
+        android:background="@color/headercolor"
+        android:visibility="gone"/>
+
+</LinearLayout><!-- From: file:/C:/Users/SHASHANK/Desktop/app/src/main/res/layout/last10report_row.xml -->

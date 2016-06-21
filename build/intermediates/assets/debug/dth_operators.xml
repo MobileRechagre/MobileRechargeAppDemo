@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opearators>
+     <item>
+            <name>AIRTEL DTH</name>
+            <thumb_url>airtel</thumb_url>
+             <opcode>AH</opcode>
+        </item>
+        <item>
+            <name>BIG TV</name>
+            <thumb_url>big_tv</thumb_url>
+              <opcode>BG</opcode>
+        </item>
+       
+         <item>
+            <name>DISH TV</name>
+            <thumb_url>dish_tv</thumb_url>
+              <opcode>DH</opcode>
+        </item>
+         <item>
+            <name>SUNDIRECT</name>
+            <thumb_url>sun_direct</thumb_url>
+             <opcode>SD</opcode>
+        </item>
+         <item>
+            <name>TATA SKY</name>
+            <thumb_url>tata_sky</thumb_url>
+              <opcode>TS</opcode>
+        </item>
+         <item>
+            <name>VIDEOCON DTH</name>
+            <thumb_url>videocon</thumb_url>
+              <opcode>VD</opcode>
+        </item>
+         
+       
+       </opearators>

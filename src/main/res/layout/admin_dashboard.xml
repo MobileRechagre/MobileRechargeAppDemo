@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitecolor"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header" />
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dashboardrow_marginetop"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/report"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/reports"
+            android:gravity="center"
+            android:text="Report"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkbalance"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/checkbalance"
+            android:gravity="center"
+            android:text="Check Balance"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/balanceTransfer"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/balancetransfer"
+            android:gravity="center"
+            android:text="Balance\nTransfer"
+            android:textStyle="bold" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dashboardrow_marginetop"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <TextView
+             android:id="@+id/revertBal"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/statement"
+            android:gravity="center"
+            android:text="Revert Balance"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+</LinearLayout>

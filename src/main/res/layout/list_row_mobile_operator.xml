@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/whitecolor">
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <RelativeLayout
+        android:id="@+id/thumbnail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+     >
+
+        <ImageView
+            android:id="@+id/list_image1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="12dip"
+            android:typeface="sans" 
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+    <!-- Title Of Song -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/title1" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignTop="@+id/thumbnail1" -->
+    <!-- android:layout_marginBottom="20dip" -->
+    <!-- android:layout_marginTop="20dip" -->
+    <!-- android:layout_below="@+id/thumbnail1" -->
+    <!-- android:gravity="center" -->
+    <!-- android:textColor="#040404" -->
+    <!-- android:textSize="15dip" -->
+    <!-- android:typeface="sans" -->
+    <!-- /> -->
+
+
+    <!-- Rightend Duration -->
+
+
+    <!-- Rightend Arrow -->
+
+</RelativeLayout>

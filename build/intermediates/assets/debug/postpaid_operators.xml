@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opearators>
+     <item>
+            <name>AIRTEL POSTPAID</name>
+            <thumb_url>airtel</thumb_url>
+             <opcode>AP</opcode>
+        </item>
+        <item>
+            <name>BSNL POSTPAID/LANDLINE</name>
+            <thumb_url>bsnl</thumb_url>
+              <opcode>BP</opcode>
+        </item>
+       
+         <item>
+            <name>IDEA POSTPAID</name>
+            <thumb_url>idea</thumb_url>
+              <opcode>IP</opcode>
+        </item>
+         <item>
+            <name>LOOP MOBILE POSTPAID</name>
+            <thumb_url>loop_mobile</thumb_url>
+             <opcode>LP</opcode>
+        </item>
+         <item>
+            <name>Reliance CDMA Postpaid</name>
+            <thumb_url>reliance_gsm</thumb_url>
+              <opcode>CP</opcode>
+        </item>
+         <item>
+            <name>Reliance GSM Postpaid</name>
+            <thumb_url>reliance_gsm</thumb_url>
+              <opcode>RP</opcode>
+        </item>
+         
+        <item>
+            <name>TATA TELESERVICES POSTPAID</name>
+            <thumb_url>tata</thumb_url>
+              <opcode>TP</opcode>
+        </item>
+          <item>
+            <name>VODAFONE POSTPAID </name>
+            <thumb_url>vodafone</thumb_url>
+              <opcode>VP</opcode>
+        </item>
+       </opearators>

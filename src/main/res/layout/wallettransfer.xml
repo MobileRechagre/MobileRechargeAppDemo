@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/appbg"
+    android:orientation="vertical" >
+ <include layout="@layout/header" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="@color/headercolor"
+            android:textSize="16dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="70dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/Mobilenoedittext"
+                android:layout_width="@dimen/edittextSizewidth"
+                android:layout_height="@dimen/edittextSizeHeight"
+                android:background="@drawable/edittext_selectorbg"
+                android:gravity="center"
+                android:hint="UserId"
+                android:inputType="text"
+                android:maxLength="10" >
+            </EditText>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/amountedittext"
+            android:layout_width="@dimen/edittextSizewidth"
+            android:layout_height="@dimen/edittextSizeHeight"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edittext_selectorbg"
+            android:gravity="center"
+            android:hint="Amount"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:background="@color/headercolor"
+        android:ems="10"
+        android:text="Transfer"
+        android:textColor="@color/appbg"
+        android:textStyle="bold" />
+
+</LinearLayout>

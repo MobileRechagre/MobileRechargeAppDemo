@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!-- color codes -->
+    <color name="headercolor">#3B5998</color>
+ <color name="whitecolor">#eceeff</color>
+  <color name="appbg">#eceeff</color>
+</resources>

@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+<gradient 
+android:type="linear"
+android:centerX="50%" 
+android:startColor="#FF6A9FBE" 
+android:centerColor="#FF93B9CF" 
+android:endColor="#FFD6E4ED" 
+android:angle="90"/>
+</shape>
+<!-- From: file:/C:/Users/SHASHANK/Desktop/app/src/main/res/drawable/gradient_bg.xml -->

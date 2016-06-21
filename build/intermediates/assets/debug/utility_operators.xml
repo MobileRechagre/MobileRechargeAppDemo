@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opearators>
+     <item>
+            <name>AIRTEL BROADBAND (DSL)</name>
+            <thumb_url>airtel</thumb_url>
+             <opcode>AB</opcode>
+        </item>
+        <item>
+            <name>Airtel Landline</name>
+            <thumb_url>airtel</thumb_url>
+             <opcode>AL</opcode>
+        </item>
+         <item>
+            <name>BSES  Energy Rajdhani</name>
+            <thumb_url>bsesrajdhani</thumb_url>
+             <opcode>BR</opcode>
+        </item>
+        <item>
+            <name>BSES Energy Yamuna</name>
+            <thumb_url>bsesyamuna</thumb_url>
+             <opcode>BY</opcode>
+        </item>
+         <item>
+            <name>Mahanagar Gas Limited</name>
+            <thumb_url>mts</thumb_url>
+             <opcode>MG</opcode>
+        </item>
+        <item>
+            <name>MTNL Delhi Landline</name>
+            <thumb_url>mtnl</thumb_url>
+             <opcode>ML</opcode>
+        </item>
+         <item>
+            <name>North Delhi Power Limited</name>
+            <thumb_url>mts</thumb_url>
+             <opcode>ND</opcode>
+        </item>
+        <item>
+            <name>Reliance Energy (Mumbai)</name>
+            <thumb_url>reliance_gsm</thumb_url>
+             <opcode>RE</opcode>
+        </item>
+         <item>
+            <name>TIKONA BROADBAND</name>
+            <thumb_url>tata</thumb_url>
+             <opcode>TB</opcode>
+        </item>
+       
+       </opearators>

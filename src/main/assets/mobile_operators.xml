@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opearators>
+     <item>
+            <name>AIRTEL</name>
+            <thumb_url>airtel</thumb_url>
+             <opcode>AT</opcode>
+        </item>
+        <item>
+            <name>AIRCEL</name>
+            <thumb_url>aircel</thumb_url>
+              <opcode>AC</opcode>
+        </item>
+       
+         <item>
+            <name>BSNL TOP UP</name>
+            <thumb_url>bsnl</thumb_url>
+              <opcode>BT</opcode>
+        </item>
+         <item>
+            <name>BSNL SPECIAL</name>
+            <thumb_url>bsnl</thumb_url>
+             <opcode>BS</opcode>
+        </item>
+         <item>
+            <name>Docomo</name>
+            <thumb_url>docomo</thumb_url>
+              <opcode>17</opcode>
+        </item>
+         <item>
+            <name>IDEA</name>
+            <thumb_url>idea</thumb_url>
+              <opcode>ID</opcode>
+        </item>
+         <item>
+            <name>MTNL SPECIAL</name>
+            <thumb_url>mtnl</thumb_url>
+             <opcode>MS</opcode>
+        </item>
+        <item>
+            <name>MTNL TOP UP</name>
+            <thumb_url>mtnl</thumb_url>
+             <opcode>TM</opcode>
+        </item>
+       
+        <item>
+            <name>MTS</name>
+            <thumb_url>mts</thumb_url>
+             <opcode>MT</opcode>
+        </item>
+        <item>
+            <name>RELIANCE CDMA</name>
+            <thumb_url>reliance_gsm</thumb_url>
+               <opcode>RC</opcode>
+        </item>
+         <item>
+            <name>RELIANCE GSM</name>
+            <thumb_url>reliance_gsm</thumb_url>
+            <opcode>RG</opcode>
+        </item>
+         <item>
+            <name>TATA DOCOMO SPECIAL</name>
+            <thumb_url>docomo</thumb_url>
+              <opcode>DS</opcode>
+        </item>
+        <item>
+            <name>TATA DOCOMO TOP UP</name>
+            <thumb_url>docom</thumb_url>
+             <opcode>DT</opcode>
+        </item>
+         <item>
+            <name>TATA INDICOM/CDMA</name>
+            <thumb_url>tata_indicom</thumb_url>
+             <opcode>TI</opcode>
+        </item>
+        
+        
+        
+         
+         <item>
+            <name>UNINOR SPECIAL</name>
+            <thumb_url>uninor</thumb_url>
+             <opcode>US</opcode>
+        </item>
+         <item>
+            <name>UNINOR TOP UP</name>
+            <thumb_url>uninor</thumb_url>
+            <opcode>UT</opcode>
+        </item>
+        <item>
+            <name>VIDEOCON MOBILE SPECIAL</name>
+            <thumb_url>videocon</thumb_url>
+            <opcode>VS</opcode>
+        </item>
+         <item>
+            <name>VIDEOCON MOBILE TOP UP</name>
+            <thumb_url>videocon</thumb_url>
+            <opcode>VT</opcode>
+        </item>
+         <item>
+            <name>VODAFONE</name>
+            <thumb_url>vodafone</thumb_url>
+            <opcode>VF</opcode>
+        </item>
+       
+       </opearators>

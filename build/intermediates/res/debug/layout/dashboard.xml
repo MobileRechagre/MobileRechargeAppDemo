@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@color/whitecolor">
+
+    <include layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/mobileR"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/mobilerecharge"
+            android:gravity="center"
+            android:text="Mobile\nRecharge"
+            android:textStyle="bold" />
+
+        <TextView
+             android:id="@+id/dthR"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/dth_recharge"
+            android:gravity="center"
+            android:text="DTH"
+            android:textStyle="bold" />
+
+        <TextView
+             android:id="@+id/postpaidR"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/postpaidbill"
+            android:gravity="center"
+            android:text="Postpaid\nMobile"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" 
+        android:layout_marginTop="@dimen/dashboardrow_marginetop">
+
+        <TextView
+             android:id="@+id/utilityR"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/utilitybill"
+            android:gravity="center"
+            android:text="Utility Bill"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/complaint"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:gravity="center"
+            android:text="Complaint"
+            android:drawableTop="@drawable/complaints"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/report"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:drawableTop="@drawable/reports"
+            android:gravity="center"
+            android:text="Report"
+            android:textStyle="bold" />
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" 
+        android:layout_marginTop="@dimen/dashboardrow_marginetop">
+
+        
+
+        <TextView
+            android:id="@+id/checkbalance"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:gravity="center"
+            android:text="Check Balance"
+           android:drawableTop="@drawable/balancetransfer"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dthbooking"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+             android:drawableTop="@drawable/dth_recharge"
+            android:gravity="center"
+            android:text="DTH\nBooking"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+</LinearLayout><!-- From: file:/C:/Users/SHASHANK/Desktop/app/src/main/res/layout/dashboard.xml -->
